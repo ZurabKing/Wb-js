@@ -1,0 +1,51 @@
+@media screen and (max-width: 768px) {
+  .main {
+    display: block;
+  }
+  .card__total {
+    margin-top: 16px;
+    width: 100%;
+    display: block;
+    max-width: none;
+  }
+
+  .total__cart_container {
+    background: #f6f6fa;
+    box-shadow: none;
+    display: block;
+  }
+
+  .delivery__point {
+    display: none;
+  }
+
+  .delivery__address {
+    display: none;
+  }
+
+  .delivery__price {
+    border-radius: 8px;
+    background: var(--system-smoky-dark, #f0ecf4);
+    padding: 8px 8px 12px 8px;
+    margin-top: 0;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+
+  .payment__cart {
+    display: none;
+  }
+
+  .payment__cart-info {
+    display: none;
+  }
+
+  .payment__immediately-block {
+    margin-top: 0;
+    padding: 0;
+    justify-content: center;
+    border-radius: 8px;
+    background: var(--system-smoky-dark, #f0ecf4);
+    padding: 8px 8px 12px 8px;
+  }
+}
